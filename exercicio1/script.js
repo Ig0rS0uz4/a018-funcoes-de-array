@@ -32,3 +32,4 @@ const func3 = (func1, func2) => {
 }
 
 console.log(func3(func1, func2)) 
+
