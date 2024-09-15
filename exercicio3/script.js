@@ -10,4 +10,21 @@ const produtos = [
     { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
- 
+//--------------------------------------------------------
+const produtosLoja = produtos.map((item) => {
+  if (item.categoria == "Limpeza") {
+    console.log(item)
+  }  
+})
+
+//--------------------------------------------------------
+//percorrer array com filter
+function lerProdutos (array) {
+    console.log(produtosDeLimpeza);
+
+}
+
+const produtosDeLimpeza = produtos.filter((array)=> {
+return array.categoria == "Limpeza"})
+
+lerProdutos(produtos);
